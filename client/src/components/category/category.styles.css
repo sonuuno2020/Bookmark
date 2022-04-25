@@ -1,0 +1,8 @@
+
+.category_title_background {
+  background-color: #00b6c6;
+}
+.btn-link:hover,.btn-link:focus {
+  text-decoration: none;
+  cursor: inherit;
+}

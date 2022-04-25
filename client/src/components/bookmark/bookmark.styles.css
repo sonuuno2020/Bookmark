@@ -1,0 +1,14 @@
+.card-body p a {
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.card-body p a:hover {
+  text-decoration: underline !important;
+}
+abbr {
+  text-decoration: none !important;
+}

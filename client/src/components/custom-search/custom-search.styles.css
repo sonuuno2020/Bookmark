@@ -1,0 +1,21 @@
+.custom-search {
+  width: 340px;
+  margin-left: auto;
+  position: relative;
+}
+.drop-menu{
+  width: 340px;
+  position: absolute;
+  top: 40px;
+  right: 5px;
+  left: auto;
+  max-height: 200px;
+  overflow: auto;
+}
+.dropdown-item {
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
